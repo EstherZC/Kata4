@@ -28,7 +28,7 @@ public class MailListReader {
             System.out.println("Error MailListReader::read (File Not Found)");
         }
         catch (IOException ex){
-        
+            System.out.println("Error MailListReader::read (IO)");
         }
         return list;
     }
